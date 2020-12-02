@@ -1,38 +1,87 @@
-.App {
-  text-align: center;
+.app {
+  background-color: moccasin;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  margin-left: 40px;
+  font-size: 48px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.wrapper {
+  width: 100%;
+  margin-top: 40px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  font-size: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.list-container {
+  width: 50%
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.aggregator-container {
+  width: 45%;
+}
+
+.cart {
+  display: flex;
+  flex-flow: column;
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+
+.display-list {
+  margin: 0px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.cart-list {
+  margin: 0px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+
+.card {
+  color: black;
+  font-size: 18px;
+  display: flex;
+  flex-flow: column wrap;
+  margin-top: 20px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.card img {
+  display: flex;
+  align-self: center;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+.card h4 {
+  margin-left: 10px;
+}
+
+.card p {
+  margin-left: 10px;
+  margin-bottom: 0px;
+}
+
+.card h5 {
+  margin-top: 10px;
+  display: flex;
+  align-self: center;
+}
+
+.button-remove-all {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  align-self: center;
 }
