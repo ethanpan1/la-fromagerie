@@ -13,7 +13,7 @@ export default class DisplayList extends Component {
        */
       <div className="display-list">
         {this.props.list.map(item => 
-          <DisplayCard name={item.name} img={item.img} price={item.price} source={item.source} firmness={item.firmness} add={this.props.add}></DisplayCard>)
+          <DisplayCard name={item.name} img={item.img} price={item.price} source={item.source} firmness={item.firmness} description={item.description} add={this.props.add}></DisplayCard>)
         }
       </div>
     );

@@ -13,6 +13,7 @@ export default class DisplayCard extends Component {
         <h4>{this.props.name}</h4>
         <p>Milk Source: {this.props.source}</p>
         <p>Firmness: {this.props.firmness}</p>
+        <p>{this.props.description}</p>
         <h5>${this.props.price}</h5>
 
         {/* Button adds item to cart using add function from FilteredList*/}
